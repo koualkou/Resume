@@ -1,0 +1,110 @@
+.list ol {
+    padding: 0 0 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    list-style-type: decimal;
+}
+
+
+
+/* /list */
+
+.table {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+} 
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #86898f;
+}
+
+/* /table */
+
+.link-list ol {
+    padding: 0;
+    list-style: none;
+
+}
+
+.link-list li {
+    margin-top: 10px;
+    border-bottom: 1px solid #9e9e9eec;
+}
+
+/* link-list */
+
+.form {
+    margin-top: 30px;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form-row {
+    padding: 20px;
+    display: flex;
+}
+
+.form-row .form-group {
+    margin-right: 10px;
+    width: 50%;
+    /* display: inline-block; */
+    /* width: calc(50% - 20px); */
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group:last-child {
+    padding-left: 20px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 15px 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #9e9e9eec;
+    color: #000;
+    outline: none;
+    font-family: inherit;
+}
+
+/* /form */
+
+.bg-1 {
+    margin-top: 20px;
+    padding: 20px;
+    background: #b5ddff;
+    border-radius: 15px;
+}
+
+.bg-2 {
+    margin-top: 20px;
+    padding: 20px;
+    background: #b5ffbb;
+    border-radius: 15px;
+}
+
+.bg-3 {
+    margin-top: 20px;
+    padding: 20px;
+    background: #d1b5ff;
+    border-radius: 15px;
+} 
+/* /section-bg */
